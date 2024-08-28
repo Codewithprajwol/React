@@ -1,0 +1,61 @@
+
+@import url('/needOfReact/node_modules/@fortawesome/fontawesome-free/css/all.min.css');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: repeat(2, 50vw);
+    background-color: pink;
+    min-height:100vh;
+    /* justify-items: center;
+    align-items: center; */
+}
+
+.basket1{
+    background-color:lightcoral;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.basket2{
+    background-color: lightgreen;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.basket1>button{
+    margin-top:10px;
+    height:fit-content;
+    width:fit-content;
+    padding:.5rem 2rem;
+    border-radius: 20px;
+    cursor:pointer;
+}
+.basket2>button{
+    margin-top:10px;
+    height:fit-content;
+    width:fit-content;
+    padding:.5rem 2rem;
+    border-radius: 20px;
+    cursor:pointer;
+}
+.basket1>button>i{
+  font-size:1rem;
+}
+
+.basket2>button>i{
+    font-size:1rem;
+}
+

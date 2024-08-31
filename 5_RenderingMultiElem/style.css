@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html , body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    display:flex;
+    flex-wrap: wrap;
+}
+.card{
+    margin-top:1rem;
+    padding: 5px;
+    border:2px solid black;
+    width:max-content;
+}
+.card img{
+    width:250px;
+}
+
+.card .info{
+    display:flex;
+    flex-direction: column;
+    gap:4px;
+    padding:10px;
+}

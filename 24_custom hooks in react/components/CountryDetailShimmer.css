@@ -1,0 +1,38 @@
+#simmer{
+    padding:0;
+   width:100%;
+}
+.shimmer .img{
+    width:340px;
+    height:290px;
+    background-color:#ccc;
+}
+.test-container{
+ width:45vw;
+ background-color: #ccc;
+ height:40vh;
+}
+.test-shimmer{
+ display:flex;
+ align-items: flex-start;
+ justify-content: center;
+ flex-direction: column;
+ gap:14px;
+}
+.test-shimmer p:nth-child(1){
+    height:30px;
+    width:40%;
+}
+.test-shimmer p:nth-child(3){
+    height:30px;
+    width:50%;
+}
+.test-shimmer p{
+    height:22px;
+    width:100%;
+    background-color: #10161c88;
+}
+.test-shimmer p:last-child{
+    height:20px;
+    width:30%;
+}
